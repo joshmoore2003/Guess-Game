@@ -1,0 +1,89 @@
+@font-face {font-family:"STARWARS";src:url("../fonts/STARWARS.eot") format("eot"),url("../fonts/STARWARS.woff") format("woff"),url("../fonts/STARWARS.ttf") format("truetype"),url("../fonts/STARWARS.svg") format("svg");font-weight:normal;font-style:normal;}
+
+body {
+	position: relative;
+	background-color: #000;
+	background-image: url(../images/videoblocks-loopable-dense-realistic-starry-sky-with-slowly-twinkling-stars-background_h-s5isnrg_thumbnail-full01.png)
+}
+
+body {
+	font-family: "STARWARS";
+	color: #ffd700;
+}
+
+p {
+	color: #ffd700;
+}
+
+#title {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	font-size: 50px;
+}
+
+#guessed-letters {
+	color: #ffd700;
+	display: block;
+	margin: 0 auto;
+	width: 350px;
+}
+
+.start-button {
+	width: 200px;
+	margin: 0 auto;
+	margin-top: 400px;
+	display: block;
+}
+
+#hangman {
+	font-size: 100px;
+}
+
+#starwars {
+	font-size: 70px;
+}
+
+.startbutton {
+	margin: 0 auto;
+}
+
+.button-warning {
+	font-family: "STARWARS" !important;
+}
+
+.space {
+	padding-bottom: 30px;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+#instruction, #alerts {
+	text-align: center;
+	font-size: 30px;
+}
+
+#main-content {
+	width: 960px;
+	margin: 0px auto 0px auto;
+}
+
+.panel {
+	padding: 20px;
+	margin: 10px;
+}
+
+#word-display {
+	text-align: center;
+	font-size: 42px;
+	padding: 10px;
+	padding-bottom: 20px;
+}
+
+#general-display {
+	text-align: center;
+	font-size: 20px;
+	line-height: 50px;
+}

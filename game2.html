@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Hangman</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+	<div id="main-content sectiontoshow">
+		<!--<div id="title-div">
+				<img id="game-title" src="./assets/images/hangman_title.png" alt="Hangman">
+				<div id="helper">Press any key to get started!</div>
+			</div>-->
+		<div id="title">
+			<p id="hangman">HANGMAN</p>
+			<p id="starwars">STAR WARS EDITION</p>
+		</div>
+		<div id="instruction">
+			<p>GUESS THE WORD</p>
+		</div>
+		<div>
+			<p id="alert-line"></p>
+		</div>
+		<div id="game-div" class="panel">
+			<div id="word-display">
+				<p id="word-display-letters"></p>
+			</div>
+
+			<div id="general-display">
+				<p class="space underline">GUESSED LETTERS:</p><span id="guessed-letters"></span>
+				
+				<p class="underline">STATS:</p>
+
+				<p>Incorrect Letters: <span id="incorrect-letters"></span></p>
+
+				<p>Wins: <span id="win"></span></p>
+
+				<p>Losses: <span id="loss"></span></p>
+
+			</div>
+			<br><br>
+			<audio id="audio" src="assets/Star_Wars.mp3" preload="auto" loop="true"></audio>
+			<div id="musicControls" class="text-center">
+				<button onClick="document.getElementById('audio').play()" class="btn btn-warning btn-xs theme-button">
+					<span class="fa fa-music"></span> Play Theme!</button>
+				<button onClick="document.getElementById('audio').pause()" class="btn btn-dark btn-xs pause-button">
+					<span class="fa fa-pause"></span> Pause Song</button>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="./assets/javascript/game.js"></script>
+</body>
+
+</html>
